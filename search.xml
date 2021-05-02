@@ -5,23 +5,10 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="2021/05/01/hello-world-0/"/>
-      <url>2021/05/01/hello-world-0/</url>
+      <link href="2021/05/01/hello-world/"/>
+      <url>2021/05/01/hello-world/</url>
       
-        <content type="html"><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!!"></a>Hello world!!</h2><h3 id="纪念第一次搭建好我的博客"><a href="#纪念第一次搭建好我的博客" class="headerlink" title="纪念第一次搭建好我的博客"></a>纪念第一次搭建好我的博客</h3><ul><li><p>框架<br>博客采用Hexo+github搭建</p></li><li><p>目的<br>欢迎大家一起交流学习</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2021/05/01/hello-world-0/c2ab1c63c3976185c131e72d587310a3ae944bfc.jpg"></p></li></ul><p><a href="https://godweiyang.com/2018/04/13/hexo-blog/">搭建教程地址</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello world</title>
-      <link href="2021/04/26/hello-world/"/>
-      <url>2021/04/26/hello-world/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!!"></a>Hello world!!</h2><h3 id="纪念第一次搭建好我的博客"><a href="#纪念第一次搭建好我的博客" class="headerlink" title="纪念第一次搭建好我的博客"></a>纪念第一次搭建好我的博客</h3><ul><li><p>框架<br>博客采用Hexo+github搭建</p></li><li><p>目的<br>欢迎大家一起交流学习</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2021/04/26/hello-world/图片\c2ab1c63c3976185c131e72d587310a3ae944bfc.jpg"></p></li></ul><p><a href="https://godweiyang.com/2018/04/13/hexo-blog/">搭建教程地址</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!!"></a>Hello world!!</h2><h3 id="纪念第一次搭建好我的博客"><a href="#纪念第一次搭建好我的博客" class="headerlink" title="纪念第一次搭建好我的博客"></a>纪念第一次搭建好我的博客</h3><ul><li><p>框架<br>博客采用Hexo+github搭建</p></li><li><p>目的<br>欢迎大家一起交流学习</p><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2021/05/01/hello-world/c2ab1c63c3976185c131e72d587310a3ae944bfc.jpg"></p></li></ul><p><a href="https://godweiyang.com/2018/04/13/hexo-blog/">搭建教程地址</a></p>]]></content>
       
       
       
