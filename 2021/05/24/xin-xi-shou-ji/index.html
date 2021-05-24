@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, 共寒一舸">
+    <meta name="keywords" content="共寒一舸">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | 共寒一舸</title>
+    <title>共寒一舸</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -247,12 +247,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/12.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title"></h1>
                 </div>
             </div>
         </div>
@@ -380,7 +380,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
-                    2021-05-01
+                    2021-05-24
                 </div>
                 
 
@@ -389,7 +389,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>Word Count:&nbsp;&nbsp;
-                    44
+                    512
                 </div>
                 
 
@@ -416,15 +416,41 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Hello-world"><a href="#Hello-world" class="headerlink" title="Hello world!!"></a>Hello world!!</h2><h3 id="纪念第一次搭建好我的博客"><a href="#纪念第一次搭建好我的博客" class="headerlink" title="纪念第一次搭建好我的博客"></a>纪念第一次搭建好我的博客</h3><ul>
-<li><p>框架<br>博客采用Hexo+github搭建</p>
-</li>
-<li><p>目的<br>欢迎大家一起交流学习</p>
-<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><img src="/2021/05/01/hello-world/c2ab1c63c3976185c131e72d587310a3ae944bfc.jpg"></p>
-</li>
+                <h3 id="一-CDN绕过技术："><a href="#一-CDN绕过技术：" class="headerlink" title="一.CDN绕过技术："></a>一.CDN绕过技术：</h3><h4 id="1-什么是cnd以及为什么要绕过cdn："><a href="#1-什么是cnd以及为什么要绕过cdn：" class="headerlink" title="1.什么是cnd以及为什么要绕过cdn："></a>1.什么是cnd以及为什么要绕过cdn：</h4><ul>
+<li>CDN的全称是Content Delivery Network，即内容分发网络</li>
+<li>有时我们访问的域名并不是主站而是其中的一个分发网络</li>
+<li>会影响我们对网站的渗透</li>
 </ul>
-<p><a target="_blank" rel="noopener" href="https://godweiyang.com/2018/04/13/hexo-blog/">搭建教程地址</a></p>
-
+<h4 id="2-如何判断cdn："><a href="#2-如何判断cdn：" class="headerlink" title="2.如何判断cdn："></a>2.如何判断cdn：</h4><ul>
+<li>超级ping，观察响应地址是否一致</li>
+<li>观察域名加上www与不加的区别</li>
+</ul>
+<h4 id="3-cdn绕过技术："><a href="#3-cdn绕过技术：" class="headerlink" title="3.cdn绕过技术："></a>3.cdn绕过技术：</h4><ul>
+<li>子域名查询(利用查询出的子域名来推测主域名)</li>
+<li>邮件服务查询(一般邮件服务不会采用cdn技术)</li>
+<li>国外地址请求  (为了节约成本大多数网站不会在国外设置cdn技术)</li>
+<li>全网扫描 (一般不推荐)，遗留文件</li>
+<li>dns历史记录 (查找设置cdn之前的dns历史记录)</li>
+<li>ddos </li>
+<li>推荐的网站 sodan  zoomeye fofa</li>
+</ul>
+<h4 id="4-cdn真实IP获取后如何指向正确网络："><a href="#4-cdn真实IP获取后如何指向正确网络：" class="headerlink" title="4.cdn真实IP获取后如何指向正确网络："></a>4.cdn真实IP获取后如何指向正确网络：</h4><ul>
+<li>利用修改本地的hosts文件改变指向</li>
+</ul>
+<p>注：m.域名指的是手机访问  利用hosts文件来判断  利用黑暗引擎搜索hash值</p>
+<h3 id="二-架构-搭建-WAF"><a href="#二-架构-搭建-WAF" class="headerlink" title="二.架构,搭建,WAF:"></a>二.架构,搭建,WAF:</h3><h5 id="1-cms识别"><a href="#1-cms识别" class="headerlink" title="1.cms识别"></a>1.cms识别</h5><h5 id="2-源码获取"><a href="#2-源码获取" class="headerlink" title="2.源码获取"></a>2.源码获取</h5><h5 id="3-架构信息获取"><a href="#3-架构信息获取" class="headerlink" title="3.架构信息获取"></a>3.架构信息获取</h5><h5 id="4-站点搭建："><a href="#4-站点搭建：" class="headerlink" title="4.站点搭建："></a>4.站点搭建：</h5><ul>
+<li>目录型站点(<strong>目录站点文件下面文件也有目录，是两套不同的程序，在一个服务器上/bbs</strong>)</li>
+<li>端口站点(<strong>域名不同端口会出现不同页面，也是不同的程序，:80/:8080</strong>)</li>
+<li>子域名站点(<strong>主站与子域名不是同一程序，可能不在同一台服务器上</strong>)</li>
+<li>类似域名站点(<strong>不同后缀，不同域名例如 .com/.cn/.net</strong>)</li>
+<li>旁注(<strong>同服务器不同站点，从旁边的站点然后跳转到服务器不同站点</strong>)，C段站点(<strong>不同服务器不同站点，在同一网段，查询同一网段的其他站点然后内网渗透</strong>)</li>
+<li>搭建软件特征站点(<strong>利用软件搭建例如:phpstudy</strong>)</li>
+</ul>
+<h5 id="5-WAF防护分析"><a href="#5-WAF防护分析" class="headerlink" title="5.WAF防护分析"></a>5.WAF防护分析</h5><ul>
+<li>Wafw00f</li>
+<li>指纹头有x power by</li>
+</ul>
+<h3 id="三-APP及其他资产："><a href="#三-APP及其他资产：" class="headerlink" title="三.APP及其他资产："></a>三.APP及其他资产：</h3><h3 id="四-资产监控拓展："><a href="#四-资产监控拓展：" class="headerlink" title="四.资产监控拓展："></a>四.资产监控拓展：</h3>
                 
             </div>
             <hr/>
@@ -450,7 +476,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://ripperk-kc.github.io/2021/05/01/hello-world/">https://ripperk-kc.github.io/2021/05/01/hello-world/</a>
+                    <a href="https://ripperk-kc.github.io/2021/05/24/xin-xi-shou-ji/">https://ripperk-kc.github.io/2021/05/24/xin-xi-shou-ji/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -655,9 +681,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+                <i class="far fa-dot-circle"></i>&nbsp;Current
+            </div>
             <div class="card">
                 <a href="/2021/05/24/xin-xi-shou-ji/">
                     <div class="card-image">
@@ -675,9 +702,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-05-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-05-24
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -686,6 +713,7 @@
                         </span>
                     </div>
                 </div>
+
                 
             </div>
         </div>
@@ -693,7 +721,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                Current&nbsp;<i class="far fa-dot-circle"></i>
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2021/05/01/hello-world/">
@@ -723,7 +751,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>

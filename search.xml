@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="2021/05/24/xin-xi-shou-ji/"/>
+      <url>2021/05/24/xin-xi-shou-ji/</url>
+      
+        <content type="html"><![CDATA[<h3 id="一-CDN绕过技术："><a href="#一-CDN绕过技术：" class="headerlink" title="一.CDN绕过技术："></a>一.CDN绕过技术：</h3><h4 id="1-什么是cnd以及为什么要绕过cdn："><a href="#1-什么是cnd以及为什么要绕过cdn：" class="headerlink" title="1.什么是cnd以及为什么要绕过cdn："></a>1.什么是cnd以及为什么要绕过cdn：</h4><ul><li>CDN的全称是Content Delivery Network，即内容分发网络</li><li>有时我们访问的域名并不是主站而是其中的一个分发网络</li><li>会影响我们对网站的渗透</li></ul><h4 id="2-如何判断cdn："><a href="#2-如何判断cdn：" class="headerlink" title="2.如何判断cdn："></a>2.如何判断cdn：</h4><ul><li>超级ping，观察响应地址是否一致</li><li>观察域名加上www与不加的区别</li></ul><h4 id="3-cdn绕过技术："><a href="#3-cdn绕过技术：" class="headerlink" title="3.cdn绕过技术："></a>3.cdn绕过技术：</h4><ul><li>子域名查询(利用查询出的子域名来推测主域名)</li><li>邮件服务查询(一般邮件服务不会采用cdn技术)</li><li>国外地址请求  (为了节约成本大多数网站不会在国外设置cdn技术)</li><li>全网扫描 (一般不推荐)，遗留文件</li><li>dns历史记录 (查找设置cdn之前的dns历史记录)</li><li>ddos </li><li>推荐的网站 sodan  zoomeye fofa</li></ul><h4 id="4-cdn真实IP获取后如何指向正确网络："><a href="#4-cdn真实IP获取后如何指向正确网络：" class="headerlink" title="4.cdn真实IP获取后如何指向正确网络："></a>4.cdn真实IP获取后如何指向正确网络：</h4><ul><li>利用修改本地的hosts文件改变指向</li></ul><p>注：m.域名指的是手机访问  利用hosts文件来判断  利用黑暗引擎搜索hash值</p><h3 id="二-架构-搭建-WAF"><a href="#二-架构-搭建-WAF" class="headerlink" title="二.架构,搭建,WAF:"></a>二.架构,搭建,WAF:</h3><h5 id="1-cms识别"><a href="#1-cms识别" class="headerlink" title="1.cms识别"></a>1.cms识别</h5><h5 id="2-源码获取"><a href="#2-源码获取" class="headerlink" title="2.源码获取"></a>2.源码获取</h5><h5 id="3-架构信息获取"><a href="#3-架构信息获取" class="headerlink" title="3.架构信息获取"></a>3.架构信息获取</h5><h5 id="4-站点搭建："><a href="#4-站点搭建：" class="headerlink" title="4.站点搭建："></a>4.站点搭建：</h5><ul><li>目录型站点(<strong>目录站点文件下面文件也有目录，是两套不同的程序，在一个服务器上/bbs</strong>)</li><li>端口站点(<strong>域名不同端口会出现不同页面，也是不同的程序，:80/:8080</strong>)</li><li>子域名站点(<strong>主站与子域名不是同一程序，可能不在同一台服务器上</strong>)</li><li>类似域名站点(<strong>不同后缀，不同域名例如 .com/.cn/.net</strong>)</li><li>旁注(<strong>同服务器不同站点，从旁边的站点然后跳转到服务器不同站点</strong>)，C段站点(<strong>不同服务器不同站点，在同一网段，查询同一网段的其他站点然后内网渗透</strong>)</li><li>搭建软件特征站点(<strong>利用软件搭建例如:phpstudy</strong>)</li></ul><h5 id="5-WAF防护分析"><a href="#5-WAF防护分析" class="headerlink" title="5.WAF防护分析"></a>5.WAF防护分析</h5><ul><li>Wafw00f</li><li>指纹头有x power by</li></ul><h3 id="三-APP及其他资产："><a href="#三-APP及其他资产：" class="headerlink" title="三.APP及其他资产："></a>三.APP及其他资产：</h3><h3 id="四-资产监控拓展："><a href="#四-资产监控拓展：" class="headerlink" title="四.资产监控拓展："></a>四.资产监控拓展：</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="2021/05/01/hello-world/"/>
       <url>2021/05/01/hello-world/</url>
